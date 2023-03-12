@@ -1,0 +1,12 @@
+.idea
+.mvn
+*.iml
+/target/
+/*.log
+/*.log*
+/init.patch
+.settings
+.vscode
+.project
+.classpath
+bin
