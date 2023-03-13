@@ -17,7 +17,7 @@ public class OrderController {
         this.orderService = orderService;
     }
 
-    @RequestMapping(method = RequestMethod.GET, path = "order")
+    @RequestMapping(method = RequestMethod.POST, path = "order")
     public int createOrder() {
         return orderService.CreateOrder();
     }
